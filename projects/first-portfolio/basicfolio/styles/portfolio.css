@@ -6,6 +6,11 @@
   font-variation-settings:
     "wdth" 100;
 }
+.header{
+    background-image: url('../image/developer\ \(1\).png'), url('../image/header_bg.png');
+   background-repeat: no-repeat;
+  background-position: top left , bottom right;
+}
 /* nav tag decoration */
 nav{
     display: flex;
@@ -13,7 +18,7 @@ nav{
     align-items: center;
     /* helps to give space between contents */
     justify-content: space-between;
-    margin: 50px 100px;
+    margin: 50px 200px;
 }
 .btn{
     background-color:#FD6E0A ;
@@ -43,4 +48,13 @@ nav a{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+}
+/* banner decoration */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+   max-width: 585px;
 }
