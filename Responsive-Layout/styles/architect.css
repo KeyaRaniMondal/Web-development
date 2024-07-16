@@ -70,9 +70,23 @@
   border: none;
 
 }
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .banner-image{
   width: 100%;
 }
+.teams{
+  align-items: center;
+}
 @media  screen and (max-widrh:576px) {
-  
+  .navbar,.nav-link{
+    flex-direction: column;
+  }
+}
+.team-img-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 24px;
 }
