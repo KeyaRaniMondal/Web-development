@@ -64,3 +64,10 @@ const n1=odd_even(10)
 const n2=odd_even(3)
 const n3=odd_even(0)
 console.log(n1,n2,n3)
+
+
+for (var i = 0; i < 5; i++) {
+    setTimeout(function () {
+    console.log(i);
+ }, 100);
+}
