@@ -68,3 +68,21 @@ function unique(items) {
 }
 const dub_array = [1, 3, 5, 2, 5, 7, 9, 1]
 console.log(unique(dub_array))
+
+
+
+
+
+//                    min function 
+
+// creating min function using object
+
+const Math={
+    min:function min(num1,num2){
+        return num2
+    }      
+}
+console.log(Math.min);
+
+// we have built in min function in javaScript
+const mi=Math.min(2,100,50,0,200)
