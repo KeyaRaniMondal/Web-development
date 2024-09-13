@@ -77,12 +77,24 @@ console.log(unique(dub_array))
 
 // creating min function using object
 
-const Math={
-    min:function min(num1,num2){
-        return num2
-    }      
-}
-console.log(Math.min);
+// const Math={
+//     min:function min(num1,num2){
+//         return num2
+//     }      
+// }
+// console.log(Math.min);
 
 // we have built in min function in javaScript
-const mi=Math.min(2,100,50,0,200)
+const min=Math.min(2,100,50,0,200,-10)
+console.log(min)
+
+// we have built in max function in javaScript
+const mx=Math.max(2,100,50,0,200,-10)
+console.log(mx)
+
+
+// *********************************************************
+
+// round,ceil,floor,random check all those functions
+
+// *********************************************************
