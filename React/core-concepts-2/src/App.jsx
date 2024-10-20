@@ -4,13 +4,19 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './Counter'
 import Team from './Team'
+import Products from './components/Products/Products'
+import Country from './components/Countries/Country'
 
 function App() {
   const [count, setCount] = useState(0)
 
+  const information={
+    message:"secret",
+    phone:"0183458757"
+  };
   return (
     <>
-      <div>
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -31,7 +37,12 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Counter></Counter>
-      <Team></Team>
+      <Team></Team> */}
+
+      {/* <Products info={information}></Products> */}
+
+      {/* from country folder */}
+      <Country></Country>
     </>
   )
 }
